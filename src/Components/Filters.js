@@ -4,7 +4,7 @@ import { CartState } from './Context/Context';
 import Rating from './Rating'
 
 const Filters = () => {
- const [rating, setRating] = useState(2);
+
  const { productState: { byStock, byFastDelivery, sort, byRating }, productDispatch } = CartState();
  console.log(byStock, byFastDelivery, sort, byRating)
  return (

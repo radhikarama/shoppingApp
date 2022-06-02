@@ -5,7 +5,7 @@ import { FaShoppingCart } from 'react-icons/fa'
 import { AiFillDelete } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 import { CartState } from './Context/Context'
-import Cart from './CartItems'
+
 
 const Header = () => {
   const { state: { cart }, productState: { searchQuery

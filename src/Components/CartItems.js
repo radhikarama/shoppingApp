@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { CartState } from './Context/Context'
-import { ListGroup, Row, Col, Image, Form, Button } from 'react-bootstrap'
-import Filters from './Filters';
+import { ListGroup, Row, Col, Image, Form, Button } from 'react-bootstrap';
 import Rating from './Rating';
 import { AiFillDelete } from 'react-icons/ai'
 import './Styles.css'

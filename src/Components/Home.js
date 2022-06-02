@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import { CartState } from './Context/Context';
 import Filters from './Filters'
 import './Styles.css'
